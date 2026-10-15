@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframe - Color Collection</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #222222;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1c1c;
+        --fg: #eeeeee;
+      }
+    }
+    body {
+      margin: 0;
+      padding: 16px;
+      background-color: var(--bg);
+      color: var(--fg);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Wireframe - Color Collection</h1>
+    <img src="wireframe.png" alt="Wireframe sketches of the Color Collection website: the landing page on mobile and large screens, and the gallery page on mobile, tablet and large screens, with a description of each view and a short write-up.">
+
+    <h2>Short write-up</h2>
+    <p>My website is a small color collection with two pages: a landing page and a gallery page. I designed it mobile-first, starting with the smallest screen and expanding the layout for larger ones.</p>
+    <p>The landing page has its own layout because it introduces the site: a hero image, a heading, a call-to-action button and three feature cards. On large screens the menu expands into links and the cards sit in one row.</p>
+    <p>The gallery page focuses on images. It changes from one column on mobile, to two columns with circular images on tablet, to a square-image grid on large screens where every third figure spans both columns.</p>
+    <p>The wireframes intentionally use no colors or fonts. Boxes with an X are image placeholders and gray bars are text placeholders, so I can focus on layout and the order of information.</p>
+  </main>
+</body>
+</html>
